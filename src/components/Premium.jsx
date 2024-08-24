@@ -26,7 +26,7 @@ const Premium = () => {
                 App ikonok
               </h2>
               <Image
-                src="/icon/appicon.svg"
+                src="/icon/appicon.png"
                 alt="app icon"
                 width={315}
                 height={300}
@@ -38,7 +38,7 @@ const Premium = () => {
                 Összesített átlagszámolás
               </h2>
               <Image
-                src="/icon/atlag.svg"
+                src="/icon/atlag.png"
                 alt="atlag"
                 width={315}
                 height={300}
@@ -49,7 +49,7 @@ const Premium = () => {
                 Egyedi betűtípusok
               </h2>
               <Image
-                src="/icon/betutipus.svg"
+                src="/icon/betutipus.png"
                 alt="betutipus"
                 width={315}
                 height={300}
@@ -59,14 +59,14 @@ const Premium = () => {
               <h2 className="text-2xl font-bold ml-4 text-black top-4 relative">
                 Fejlettebb cél kitűzés
               </h2>
-              <Image src="/icon/cel.svg" alt="cel" width={315} height={300} />
+              <Image src="/icon/cel.png" alt="cel" width={315} height={300} />
             </div>
             <div className="flex flex-col card">
               <h2 className="text-2xl font-bold ml-4 text-black top-4 relative">
                 Naptár szinkronizálás
               </h2>
               <Image
-                src="/icon/sync.svg"
+                src="/icon/sync.png"
                 alt="sync"
                 width={315}
                 height={300}
