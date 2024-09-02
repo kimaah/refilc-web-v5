@@ -13,8 +13,8 @@ const Header = () => {
           Letöltés
         </Button>
       </div> */}
-      <div className="fixed w-full z-20 top-0 start-0">
-        <div className="navbar flex flex-wrap items-center justify-between p-[80px]">
+      <div className="fixed w-full z-20 top-0 start-0 end-0">
+        <div className="w-full flex flex-wrap items-center justify-between p-[80px]">
           <Link href="/" className="flex flex-row items-center gap-3">
             <img src="./logo.png" alt="reFilc" className="h-8" />
             <h1 className="h1 text-[#050B15]">reFilc</h1>
@@ -30,11 +30,12 @@ const Header = () => {
         </div>
       </div>
       <div className="fixed bottom-[80px] left-[80px] text-primary-foreground font-figtree hidden xl:block">
-        <p>Website design by xou, developed by Ákos and kima.</p>
+        
         <p>Copyright 2024 <Link href="https://qwit.dev" target="_blank">QwIT</Link>. All Rights Reserved.</p>
         <Link href="/privacy-policy" className="">
           Adatkezelési Tájékoztató
         </Link>
+        <p>Website design by xou, developed by Ákos and kima.</p>
       </div>
     </header>
   );
